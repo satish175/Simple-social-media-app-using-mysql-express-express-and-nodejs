@@ -1,0 +1,60 @@
+.profile {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile .post {
+  width: 600px;
+  height: 500px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+}
+
+.profile .post .Image {
+  flex: 70%;
+}
+
+.profile .post .image img {
+  width: 100%;
+}
+
+.profile .post .content {
+  flex: 30%;
+  display: flex;
+  flex-direction: column;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.profile .post .content .title {
+  flex: 30%;
+  font-family: serif;
+  font-size: 30px;
+  text-align: center;
+}
+
+.profile .post .content .description {
+  flex: 50%;
+  align-items: center;
+}
+
+.profile .post .like {
+  flex: 20%;
+  display: grid;
+  place-items: center;
+}
+
+.profile .post .like .likeIcon {
+  font-size: 40px;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.profile .post .like .likeIcon:active {
+  color: black;
+}
